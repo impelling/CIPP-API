@@ -7,6 +7,8 @@ on:
   push:
     branches:
       - master
+  # Allows manual workflow run (must be in default branch to work)
+  workflow_dispatch:
 
 env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.' # set this to the path to your web app project, defaults to the repository root
