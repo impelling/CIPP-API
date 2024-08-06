@@ -20,8 +20,8 @@ env:
 
 # This runs every day at 03:49
 on:
-  schedule:
-    - cron: '48 3 * * *'
+  # schedule:
+  #   - cron: '48 3 * * *'
   # Allows manual workflow run (must be in default branch to work)
   workflow_dispatch:
 
